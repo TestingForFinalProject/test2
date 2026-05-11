@@ -1,0 +1,15 @@
+Wanted Output:- 
+514125 6245 5441678 4435 
+Student's Output:- 
+3214125 414245 52678 54235 
+Comparison:- 
+replace   student[0:2] --> wanted[0:1]     '32' --> '5'
+equal     student[2:8] --> wanted[1:7] '14125 ' --> '14125 '
+replace   student[8:11] --> wanted[7:8]    '414' --> '6'
+equal     student[11:16] --> wanted[8:13]  '245 5' --> '245 5'
+replace   student[16:17] --> wanted[13:16]      '2' --> '441'
+equal     student[17:21] --> wanted[16:20]   '678 ' --> '678 '
+delete    student[21:22] --> wanted[20:20]      '5' --> ''
+equal     student[22:23] --> wanted[20:21]      '4' --> '4'
+replace   student[23:24] --> wanted[21:22]      '2' --> '4'
+equal     student[24:27] --> wanted[22:25]    '35 ' --> '35 '
